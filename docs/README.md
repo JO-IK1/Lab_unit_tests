@@ -75,10 +75,3 @@ def perimeter(a):
     return 4 * a
 perimeter(5)  # return 20
 ```
-
-# <span style="color:rgb(256,0,0);"> Заголовок </span>
-## Заголовок  
-### Заголовок
-- раз
-- два
-- три

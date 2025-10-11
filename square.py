@@ -13,6 +13,8 @@ def area(a):
             >>> area(7)
             49
     """
+    if a < 0:
+        raise ValueError("Сторона квадрата не может быть отрицательной")
     return a * a
 
 
@@ -30,4 +32,6 @@ def perimeter(a):
             >>> perimeter(7)
             28
     """
+    if a < 0:
+        raise ValueError("Сторона квадрата не может быть отрицательной")
     return 4 * a
