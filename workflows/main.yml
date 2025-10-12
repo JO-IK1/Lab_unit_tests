@@ -30,4 +30,4 @@ jobs:
 
       - name: Run unit tests (Unittest discover)
         run: |
-          pytest -q
+          python -m unittest discover -v
