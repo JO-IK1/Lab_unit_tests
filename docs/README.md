@@ -8,7 +8,7 @@
 
 ### Окружность (circle.py)
 
-#### area(r)
+#### circle_area(r)
 Вычисляет площадь окружности.
 
 **Параметры:**
@@ -20,12 +20,12 @@
 **Пример:**
 ```python
 import math
-def area(r):
+def circle_area(r):
     return math.pi * r * r
-area(5)  # return 78.53981633974483
+circle_area(5)  # return 78.53981633974483
 ```
 
-#### perimeter(r)
+#### circle_perimeter(r)
 Вычисляет периметр (окружность) круга.
 
 **Параметры:**
@@ -37,14 +37,14 @@ area(5)  # return 78.53981633974483
 **Пример:**
 ```python
 import math
-def perimeter(r):
+def circle_perimeter(r):
     return 2 * math.pi * r
-perimeter(5)  # return 31.41592653589793
+circle_perimeter(5)  # return 31.41592653589793
 ```
 
 ### Квадрат (square.py)
 
-#### area(a)
+#### square_area(a)
 Вычисляет площадь квадрата.
 
 **Параметры:**
@@ -55,12 +55,12 @@ perimeter(5)  # return 31.41592653589793
 
 **Пример:**
 ```python
-def area(a):
+def square_area(a):
     return a * a
-area(5)  # return 25
+square_area(5)  # return 25
 ```
 
-#### perimeter(a)
+#### square_perimeter(a)
 Вычисляет периметр квадрата.
 
 **Параметры:**
@@ -71,7 +71,7 @@ area(5)  # return 25
 
 **Пример:**
 ```python
-def perimeter(a):
+def square_perimeter(a):
     return 4 * a
-perimeter(5)  # return 20
+square_perimeter(5)  # return 20
 ```

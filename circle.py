@@ -1,7 +1,7 @@
 import math
 
 
-def area(r):
+def circle_area(r):
     """
     Вычисляет площадь окружности.
 
@@ -12,7 +12,7 @@ def area(r):
             float: Площадь круга
 
         Пример:
-            >>> area(7)
+            >>> circle_area(7)
             153.93804002589985
     """
     if r < 0:
@@ -20,7 +20,7 @@ def area(r):
     return math.pi * r * r
 
 
-def perimeter(r):
+def circle_perimeter(r):
     """
     Вычисляет периметр окружности.
 
@@ -31,7 +31,7 @@ def perimeter(r):
             float: периметр круга
 
         Пример:
-            >>> perimeter(7)
+            >>> circle_perimeter(7)
             43.982297150257104
     """
     if r < 0:
