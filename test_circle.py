@@ -11,7 +11,7 @@ class TestCircle(unittest.TestCase):
 
     def test_circle_area_positive(self):
         # округляем результат до 2 знаков после запятой
-        self.assertAlmostEqual(circle_area(3), math.pi * 9, places=6)
+        self.assertAlmostEqual(circle_area(-3), math.pi * 9, places=6)
 
     def test_circle_perimeter_positive(self):
         self.assertAlmostEqual(circle_perimeter(2), 2 * math.pi * 2, places=6)
