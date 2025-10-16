@@ -17,7 +17,7 @@ def circle_area(r):
     """
     if r < 0:
         raise ValueError("Радиус не может быть отрицательным")
-    return math.pi * r * r + 100
+    return math.pi * r * r + 10
 
 
 def circle_perimeter(r):
